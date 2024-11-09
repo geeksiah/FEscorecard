@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "verdana";
+  src: url("./fonts/verdana-bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: "verdana", sans-serif;
+}
+
+main {
+  width: 575px;
+  height: auto;
+  margin: 70px auto;
+  justify-content: center;
+  column-gap: 100px;
+  background-color: #1b244a;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 50px 0;
+  flex-wrap: wrap;
+}
+
+.home {
+}
+
+.scorecard {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: auto;
+  font-size: 90px;
+  color: #f94f6d;
+  height: 120px;
+  background-color: #080001;
+}
+
+main h1 {
+  color: #eeeeee;
+  font-size: 40px;
+}
+.controls {
+  margin-top: 26px;
+  gap: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.controlbutton {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 18px;
+  padding: 0;
+  color: #9aabd8;
+  height: 45px;
+  width: 45px;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.btn {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.resetButton {
+  width: 70%;
+}

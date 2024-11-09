@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <title>BasketBall Scoreboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <button class="resetButton btn controlbutton" onclick="reset()">
+        Reset
+      </button>
+      <div class="home">
+        <h1>HOME</h1>
+        <div class="scorecard">
+          <span id="homecount">0</span>
+        </div>
+        <div class="controls">
+          <button class="controlbutton btn" onclick="addHome(1)">+1</button>
+          <button class="controlbutton btn" onclick="addHome(2)">+2</button>
+          <button class="controlbutton btn" onclick="addHome(3)">+3</button>
+        </div>
+        <div class="controls">
+          <button class="controlbutton btn" onclick="subtractHome(1)">
+            -1
+          </button>
+          <button class="controlbutton btn" onclick="subtractHome(2)">
+            -2
+          </button>
+          <button class="controlbutton btn" onclick="subtractHome(3)">
+            -3
+          </button>
+        </div>
+      </div>
+      <div class="guest">
+        <h1>AWAY</h1>
+        <div class="scorecard">
+          <span id="guestcount">0</span>
+        </div>
+        <div class="controls">
+          <button class="controlbutton btn" onclick="addGuest(1)">+1</button>
+          <button class="controlbutton btn" onclick="addGuest(2)">+2</button>
+          <button class="controlbutton btn" onclick="addGuest(3)">+3</button>
+        </div>
+        <div class="controls">
+          <button class="controlbutton btn" onclick="subtractGuest(1)">
+            -1
+          </button>
+          <button class="controlbutton btn" onclick="subtractGuest(2)">
+            -2
+          </button>
+          <button class="controlbutton btn" onclick="subtractGuest(3)">
+            -3
+          </button>
+        </div>
+      </div>
+    </main>
+    <script src="function.js"></script>
+  </body>
+</html>
